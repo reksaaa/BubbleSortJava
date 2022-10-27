@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //////////////////0  1   2  3 4  5  6
-        int[] intArray = {20,35,-15,7,55,1,-22,100,-80,20,120,87,5,4,10};
+        int[] intArray = {20,35,-15,7,55,1,-22};
 
         for(int lastUnsortedIndex = intArray.length-1; lastUnsortedIndex > 0; lastUnsortedIndex--){
             for(int i = 0; i < lastUnsortedIndex; i++){
